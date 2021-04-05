@@ -1,0 +1,373 @@
+/* Common */
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 40px;
+    background-image: url(/Source/IMG/SVG/PDevTile.svg);
+    background-size: 250px;
+    background-repeat: repeat;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background:linear-gradient(to right, rgb(0, 0, 0) 50%, #FFE816 50%, #91D4CF);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.4s ease-out;
+}
+.a2{
+    text-decoration: none;
+    color: black;
+    background:linear-gradient(to right, rgb(0, 0, 0) 50%, #FFE816 50%, #ffffff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.4s ease-out;
+}
+li{
+    font-size: 24px;
+    list-style: none;
+}
+/*Logos*/
+.logo{
+    position: fixed;
+    padding-left: 30vw;
+    padding-top: 25vh;
+}
+.logosmall{
+    position: fixed;
+    top: 34.2vh;
+    left:83vw ;
+    width: 8em;
+    height: 4.2em;
+}
+
+/* Animações */
+a:hover{
+    background-position: -100%;
+    font-size: 105%;
+}
+
+.texto{
+    background:linear-gradient(to right, rgb(0, 0, 0) 50%, #FFE816 50%, #ffffff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1.5s ease-out;
+}
+.texto:hover{
+    background-position: -100%;
+}
+
+span:hover{
+    color: #FFE816 ;
+    background-color: rgb(0, 0, 0) 0.2  ;
+}
+/* Fim Animações */
+
+/* HomePage */
+.whitebox1/*BIO*/{
+    width: 18.5vw;
+    height: 29vh;
+    background-color: white;
+    position: absolute;
+    top: 0vh;
+    left: 16.39vw;
+    font-size: 2.4em;
+    text-align: center;
+}
+.whitebox2/*GALLERY*/{
+    width: 18.55vw;
+    height: 29vh;
+    background-color: white;
+    position: absolute;
+    top: 0vh;
+    left: 81.5vw;
+    font-size: 1.6em;
+    text-align: center;
+}
+.whitebox3/*SKILLS*/{
+    width: 17.3vw;
+    height: 29vh;
+    background-color: white;
+    position: absolute;
+    top: 28.9vh;
+    left: -0.7vw;
+    font-size: 1.6em;
+    text-align: center;
+}
+.whitebox4/*CONNECTIVITY*/{
+    width: 18.55vw;
+    height: 29vh;
+    background-color: white;
+    position: absolute;
+    top: 57.6vh;
+    left:16.55vw;
+    font-size: 1.5em;
+    text-align: left;
+}
+.whitebox5/*GOALS*/{
+    width: 18.55vw;
+    height: 29vh;
+    background-color: white;
+    position: absolute;
+    top: 57.6vh;
+    left: 81.5vw;
+    font-size: 1.6em;
+    text-align: center;
+}
+.whiterect/*PROJECTS/NOTE*/{
+    width: 46.54vw;
+    height: 29vh;
+    background-color: white;
+    position: absolute;
+    top: 28.9vh;
+    left: 34.9vw;
+    font-size: 2.5em;
+    text-align: center;
+}
+/* Bio */
+.biobox{
+    width: 18.5vw;
+    height: 29vh;
+    background-color: white;
+    position: absolute;
+    top: 0vh;
+    left: 16.39vw;
+    font-size: 2.4em;
+    text-align: center;
+}
+.bioboxgreen{
+    background-color:#91D4CF;
+    position: absolute;
+    width: 65vw;
+    height: 45vh;
+    top: 29.1vh;
+    left: 16.5vw;
+    font-size: 0.22em;
+    text-align: left;
+
+}
+.biotext{
+    position: absolute;
+    left: 2vw;
+    background-color:#91D4CF;
+    width: 22vw;
+    height: 15vh;
+    font-size: 2.3em;
+    padding-top: 1em;
+    text-align: justify;
+    font-family: 'consolas', Courier, monospace;
+}
+
+.biophoto{
+    position: relative;
+    top:1vh;
+    right: 2vw;
+    float:right;
+    min-width:13vw;
+    background-color: #143C3C;
+}
+/* Gallery */
+.galleryframe{
+    width: 65vw;
+    height: 87vh;
+    background-color: #91D4CF;
+    color:white;
+    position: absolute;
+    margin-top: -1vh;
+    margin-left: 16.5vw;
+    font-size: 1.6em;
+    text-align: center;
+ 
+}
+.logomini{
+    position: fixed;
+    margin-top: 4.3vh;
+    margin-left:2vw ;
+    width: 3em;
+    height: 2em;
+}
+/* MyConnectivity */
+.connectivitybox{
+    width: 18.55vw;
+    height: 29vh;
+    background-color:#143C3C;
+    color: pink;
+    position: absolute;
+    top: 57.53vh;
+    left:35.15vw;
+    font-size: 1.5em;
+    text-align: left;
+}
+.linksbox{
+    width: 46.54vw;
+    height: 29vh;
+    background-color: #91D4CF;
+    color:black;
+    position: absolute;
+    top: 28.48vh;
+    left:35.15vw;
+    font-size: 1.5em;
+    text-align: left;
+
+}
+/* Projects */
+.projectbox{
+    width: 46.54vw;
+    height: 29vh;
+    background-color: white;
+    position: absolute;
+    margin-top: -1vh;
+    margin-left: 34.5vw;
+    font-size: 2.5em;
+    text-align: center;
+}
+.projectslider{
+    width: 47vw;
+    height: 58vh;
+    background-color: rgb(144, 144, 144);
+    position: absolute;
+    margin-top: 28vh;
+    margin-left: 34.1vw;
+    font-size: 2.5em;
+    text-align: center;
+}
+.projectinfo{
+    width: 17.3vw;
+    height: 58vh;
+    background-color:#33706c;
+    position: absolute;
+    margin-top: 28vh;
+    margin-left:17.2vw;
+    font-size: 1.2em;
+    color: white;
+    text-align: left;
+}
+.logosmallleft{
+    position: fixed;
+    margin-top: 4.3vh;
+    margin-left:12vw ;
+    width: 9em;
+    height: 4.2em;
+}
+/* Skills */
+.skillsbox{
+    width: 17.3vw;
+    height: 29vh;
+    background-color: white;
+    position: absolute;
+    top: 28.9vh;
+    left: -0.7vw;
+    font-size: 1.6em;
+    text-align: center;
+}
+.skillsboxadam{
+    width: 18.5vw;
+    height: 29vh;
+    background-color: #91D4CF;
+    color: white;
+    position: absolute;
+    top: 28.9vh;
+    left: 16.6vw;
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+    
+}
+.skillsboxadam:hover{
+    
+}
+.skillsboxbrian{
+    width: 45.4vw;
+    height: 27.9vh;
+    background-color: #33706c;
+    color: white;
+    position: absolute;
+    top: 28.9vh;
+    left: 34.9vw;
+    font-size: 0.7em;
+    text-align: left;
+    padding-left: 0.8em;
+    padding-top: 0.4em;
+    font-style: italic;
+}
+/* Note */
+.notebox{
+    width: 46.65vw;
+    height: 29.2vh;
+    background-color: white;
+    position: absolute;
+    top: 57.5vh;
+    left: 34.8vw;
+    font-size: 2.5em;
+    text-align: center;
+}
+.notewindow{
+    width: 46.54vw;
+    height: 44vh;
+    background-color:#91D4CF;
+    position: absolute;
+    top: 28vh;
+    left: 34.92vw;
+    font-size: 1.2em;
+    text-align: left;
+}
+/* Blog style */
+.title{
+    top: ;
+ font-size: 0.8em;
+ background-color: white;
+ padding-left: 1vw;
+}
+.subtitle{
+    padding-top: 0.8vh;
+    padding-left: 0.5vw;
+    font-size: 0.4em;
+}
+.posttext{
+    font-size: 0.4em;
+    font-family: "consolas";
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+}
+/* Goals */
+.goalsquare{
+    width: 18.55vw;
+    height: 29vh;
+    background-color: white;
+    position: absolute;
+    margin-top: 56.9vh;
+    margin-left: 81vw;
+    z-index: 500;
+    font-size: 1.6em;
+    text-align: center;
+}
+.goalbox1{
+    position: absolute;
+    top:52.5vh;
+    left: 1290px;
+    z-index: 500; 
+}
+.goalbox2{
+    position: absolute;
+    top:52.5vh;
+    left: 1110px;
+    z-index: 400;
+}
+.goalbox3{
+    position: absolute;
+    top:52.5vh;
+    left: 922px; 
+    z-index: 400;
+}
+.goalbox4{
+    position: absolute;
+    top:52.5vh;
+    left:732px;
+    z-index: 400;
+}
+

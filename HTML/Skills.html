@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- StyleSheets -->
+    <link rel="icon" type="image/png" href="../Source/IMG/PNG/websiteicon.png"/>
+    <link href="../CSS/PMorgadoDev.css" rel="stylesheet" />
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,800;1,800&display=swap" rel="stylesheet">  
+    <!-- Scripts -->
+    
+    <!-- API's-->
+    <title>Skills</title>
+</head>
+<body>
+    <div><a href="/HTML/HomePage.html"><img class="logosmall" src="../Source/IMG/SVG/logo.svg"></a></div>
+    <div class="skillsbox">
+        <div style="padding-top: 1.7em;">
+            <a href="../HTML/Skills.html"><b>SKILLS</b></a>
+        </div>
+    </div>
+    <div class="skillsboxadam">
+        <div>
+            <span class="texto"><b>"Each tree grows from a seed" </b></span>
+        </div>
+    </div>
+    <div class="skillsboxbrian">
+        <script src="/Script/anime.min.js"></script>
+        <script>
+            anime({
+              targets: '.skillsdots',
+              translateX: function(el) {
+                return el.getAttribute('data-x');
+              },
+              translateY: function(el, i) {
+                return 50 + (-50 * i);
+              },
+              scale: function(el, i, l) {
+                return (l - i) + .25;
+              },
+              rotate: function() { return anime.random(-360, 360); },
+              borderRadius: function() { return ['50%', anime.random(10, 35) + '%']; },
+              duration: function() { return anime.random(1200, 1800); },
+              delay: function() { return anime.random(0, 400); },
+              direction: 'alternate',
+              loop: true
+            });
+        </script>
+        <div><b>
+                Design
+            <span class="skillsdots"><br> > HTML</span>
+            <span class="skillsdots"><br> > CSS</span>
+            <span class="skillsdots"><br> > JavaScript</span>
+            <span class="skillsdots"><br> > jQuery</span>
+            <span class="skillsdots"><br> > Python</span>
+            </b>
+        </div>
+    </div>
+</body>
+</html>
